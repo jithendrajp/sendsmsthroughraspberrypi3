@@ -15,7 +15,7 @@ rcv = port.read(10)
 print(rcv)
 time.sleep(1)
 
-port.write(str.encode('ATE0'+'\r\n')      # Disable the Echo
+port.write(str.encode('ATE0'+'\r\n'))      # Disable the Echo
 rcv = port.read(10)
 print(rcv)
 time.sleep(1)
